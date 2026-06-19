@@ -16,7 +16,7 @@ terraform {
   required_providers {
     palmahost = {
       source  = "palmahost/palmahost"
-      version = "~> 0.1"
+      version = "~> 1.0"
     }
   }
 }
