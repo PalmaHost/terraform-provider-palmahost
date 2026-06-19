@@ -1,0 +1,10 @@
+# built provider binaries (never committed; built via `go build` / goreleaser)
+terraform-provider-palmahost
+terraform-provider-palmahost_*
+dist/
+
+# local terraform state / plugin cache from manual trials
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
